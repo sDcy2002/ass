@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="mod.css">
+    <title>KMUTNB-FITM-INE</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+
+            <div class="navbar">
+                <div class="logo">
+                   <img src="image/FITM LOGO TH COLOR.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItem">
+                        <li><a href="e-commerce.html">IT</a></li>
+                        <li><a href="login.html">ITI</a></li>
+                        <li><a href="register.html">INE</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <a class="cart_area" href="cart.html">
+                    <img src="image/logo IT white-01.png" width="30px" height="30px">
+                    <div class="count_items_cart_area hidden">
+                        <p class="unit_items_cart">0</p>
+                    </div>
+                </a>
+                <img src="image/menu.png" class="menu-icon" >      
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>KMUTNB<br>FITM</h1>
+                    <p>คณะเทคโนโลยีสารสนเทศและการจัดการอุตสาหกรรม</p>
+                </div>
+                <div class="col-2">
+                    <img src="image/DSC02311.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-container">
+        <h2 class="title">มหาลัยวิทยาลัยพระจอมเกล้าพระนครเหนือ ปราจีนบุรี</h2>
+        <div class="row">
+            <div class="col-4 cursor_pointer">
+                <img class="img_item" src="image/10700381_734616699924928_7885627149363556894_o.jpg">
+            </div>
+
+            <div class="col-4 cursor_pointer">
+                <img class="img_item" src="image/740266_494196743964953_1286465764_o.jpg">
+            </div>
+
+            <div class="col-4 cursor_pointer">
+                <img class="img_item" src="image/10.jpg">
+            </div>
+
+            <div class="col-4 cursor_pointer">
+                <img class="img_item" src="image/11.jpg">
+            </div>         
+        </div>
+        <h2 class="title"></h2>
+    </div>
+<!------footer------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>KMUTNB FITM</h3>
+                <p>คณะเทคโนโลยีสารสนเทศและการจัดการอุตสาหกรรม</p>
+                <div class="app-logo">
+                    <a href="https://kmutnb.ac.th/"><img src="image/FITM LOGO TH COLOR.png"></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <h3>" FITM INE "</h3>
+            </div>
+            <div class="footer-col-3">
+                <h3>Links</h3>
+                <ul class="Contact">
+                    <li><a href="https://kmutnb.ac.th/">KMUTNB</a></li>
+                    <li><a href="https://www.facebook.com/FITM.KMUTNB/">FITM</a></li>
+                    <li><a href="https://www.facebook.com/INEKMUTNB/">INE</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - KMUTNB-FITM-INE</p>
+    </div>
+</div>
+    <script>
+        var MenuItems = document.getElementById("MenuItem");
+
+        MenuItems.style.maxHeight = "0px"
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+
+    <script src="./js/shopping.js"></script>
+    <script src="./js/cart.js"></script>
+
+</body>
+</html>
